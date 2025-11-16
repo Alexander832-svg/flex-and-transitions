@@ -18,6 +18,9 @@ body {
     /* TODO: Add display: flex to make this a flex container */
     /* TODO: Add justify-content: space-between to space logo and links apart */
     /* TODO: Add align-items: center to center items vertically */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem 2rem;
     background-color: #333;
 }
@@ -39,10 +42,13 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
+    display: flex;
+    align-content: space-between;
     /* TODO: Add transition property for smooth hover effects */
 }
 
 .nav-links a:hover {
+    background-color: black;
     /* TODO: Add background-color for hover state */
 }
 
@@ -54,6 +60,9 @@ body {
     /* TODO: Add display: flex to make this a flex container */
     /* TODO: Add justify-content: center to center horizontally */
     /* TODO: Add align-items: center to center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -82,5 +91,9 @@ body {
 }
 
 .cta-button:hover {
+   transition: all;
+   transition-duration: 300ms;
+   transform: scale(1.2);
+    background-color: black;
     /* TODO: Add background-color for hover state (try #ff5252) */
 }
